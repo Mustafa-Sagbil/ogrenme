@@ -1,0 +1,443 @@
+# GÜNCEL ÖĞRENME LİSTESİ
+# Mustafa'nın Full-Stack Developer ve Algoritma Yolculuğu
+
+## GENEL BİLGİLER
+- Öğrenme Sırası: Python → JavaScript/TypeScript → Go → Dart/Flutter → C
+- Her dil için ayrı projeler tamamlandıktan sonra çok dilli entegrasyon projeleri
+- Her proje bir öncekinden daha karmaşık ve gerçek dünya problemlerine yakın
+- Tüm projeler Temiz Mimari ve SOLID prensiplerine uygun olacak
+- Öğrenme Kaynakları: Her proje ve algoritma problemi için internet kaynaklarından ve yapay zeka araçlarından aktif destek alınacak
+
+## KULLANIM KILAVUZU
+- [ ] = Henüz tamamlanmadı
+- [x] = Tamamlandı
+- Açıklama/Notlar bölümüne: Proje sonrası öğrenilenler, kaçırılan noktalar, iyileştirme önerileri yazılacak
+
+## 1. PYTHON ÖĞRENME YOLU
+
+### Seviye 1: Temel Kavramlar ve İlk Problemler
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [x] | Basit Hesap Makinesi | İlk proje tamamlandı. Hata kontrolü ve kullanıcı girdisi öğrenildi. |
+| [x] | Merhaba Dünya (print, tkinter) | |
+| [ ] | İki Sayının Toplamı (Algoritma) | |
+| [ ] | Sayı Tahmin Oyunu | |
+| [ ] | Palindrom Kontrolü (Algoritma) | |
+| [ ] | Basit Quiz Uygulaması | |
+| [ ] | Faktöriyel Hesaplama (Algoritma) | |
+| [ ] | Fibonacci Dizisi (Algoritma) | |
+
+### Seviye 2: Veri Yapıları ve Orta Seviye Algoritmalar
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Kişi Rehberi | |
+| [ ] | En Uzun Ortak Önek (Algoritma) | |
+| [ ] | Basit Banka Hesabı | |
+| [ ] | Valid Parantezler (Algoritma) | |
+| [ ] | Dosya Organizatörü | |
+| [ ] | En Büyük Alt Dizi Toplamı (Algoritma) | |
+| [ ] | Merge Sorted Listeler (Algoritma) | |
+
+### Seviye 3: Web, API ve İleri Algoritmalar
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Basit Web Sunucusu | |
+| [ ] | Ağaç Maksimum Derinliği (Algoritma) | |
+| [ ] | Hava Durumu Uygulaması | |
+| [ ] | Ters Bağlı Liste (Algoritma) | |
+| [ ] | Basit Blog Sistemi | |
+| [ ] | Tek Sayı Düğümü Bulma (Algoritma) | |
+
+### Seviye 4: Veri Analizi ve Gelişmiş Uygulamalar
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | CSV Veri Analizi | |
+| [ ] | Graf BFS/DFS (Algoritma) | |
+| [ ] | Basit E-ticaret Sistemi | |
+| [ ] | Dikdörtgen Alanı (Algoritma) | |
+| [ ] | Web Scraping Uygulaması | |
+| [ ] | Minimum Spanning Tree (Algoritma) | |
+
+### Seviye 5: İleri Seviye ve Uzmanlaşma
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Mikroservis Mimarisi | |
+| [ ] | Machine Learning Projesi | |
+| [ ] | Kısa Yol Algoritmaları (Algoritma) | |
+| [ ] | Real-time Chat Uygulaması | |
+| [ ] | Network Flow (Algoritma) | |
+
+## 2. JAVASCRIPT/TYPESCRIPT ÖĞRENME YOLU
+
+### Seviye 1: Temel JavaScript ve DOM Manipülasyonu
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Konsol ve DOM Etkileşimi | |
+| [ ] | DOM Manipülasyonu | |
+| [ ] | İki Sayının Toplamı (Algoritma) | |
+| [ ] | Basit Oyun (Tic-tac-toe) | |
+| [ ] | Palindrom Kontrolü (Algoritma) | |
+| [ ] | Todo List Uygulaması | |
+| [ ] | Faktöriyel Hesaplama (Algoritma) | |
+| [ ] | Fibonacci Dizisi (Algoritma) | |
+
+### Seviye 2: Modern JavaScript ve Veri Yönetimi
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Weather Dashboard | |
+| [ ] | En Uzun Ortak Önek (Algoritma) | |
+| [ ] | Shopping Cart | |
+| [ ] | Valid Parantezler (Algoritma) | |
+| [ ] | Form Validation | |
+| [ ] | En Büyük Alt Dizi Toplamı (Algoritma) | |
+| [ ] | Merge Sorted Listeler (Algoritma) | |
+
+### Seviye 3: TypeScript ve React/Node.js Temelleri
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Type-safe Calculator | |
+| [ ] | Ağaç Maksimum Derinliği (Algoritma) | |
+| [ ] | API Client | |
+| [ ] | Ters Bağlı Liste (Algoritma) | |
+| [ ] | React-like Mini Framework | |
+| [ ] | Tek Sayı Düğümü Bulma (Algoritma) | |
+
+### Seviye 4: Backend (Node.js) ve Full-stack Temelleri
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | REST API Server (Node.js/Express) | |
+| [ ] | Graf BFS/DFS (Algoritma) | |
+| [ ] | Authentication System (Node.js) | |
+| [ ] | Dikdörtgen Alanı (Algoritma) | |
+| [ ] | Real-time Chat (Node.js/Socket.io) | |
+| [ ] | Minimum Spanning Tree (Algoritma) | |
+
+### Seviye 5: Full-stack Uygulamalar ve İleri Algoritmalar
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | E-commerce Platform (MERN/MEVN/PERN Stack) | |
+| [ ] | Kısa Yol Algoritmaları (Algoritma) | |
+| [ ] | Social Media Clone | |
+| [ ] | Advanced Graph Algorithms (Algoritma) | |
+| [ ] | Progressive Web App | |
+| [ ] | Computational Geometry (Algoritma) | |
+
+## 3. GO ÖĞRENME YOLU
+
+### Seviye 1: Temel Go
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | CLI Hesap Makinesi | |
+| [ ] | Slice Manipulation (Algoritma) | |
+| [ ] | Dosya İşlemleri | |
+| [ ] | Map Operations (Algoritma) | |
+| [ ] | Basit HTTP Sunucusu | |
+| [ ] | String Processing (Algoritma) | |
+| [ ] | Channel Basics (Algoritma) | |
+| [ ] | Interface Implementation (Algoritma) | |
+
+### Seviye 2: Concurrency
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Web Crawler | |
+| [ ] | Binary Search Tree (Algoritma) | |
+| [ ] | Concurrent Download Manager | |
+| [ ] | Graph Implementation (Algoritma) | |
+| [ ] | Real-time Data Processor | |
+| [ ] | Heap Implementation (Algoritma) | |
+| [ ] | LRU Cache (Algoritma) | |
+| [ ] | Trie Data Structure (Algoritma) | |
+| [ ] | Union-Find (Algoritma) | |
+
+### Seviye 3: Web Development
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | REST API | |
+| [ ] | Concurrent Data Structures (Algoritma) | |
+| [ ] | Microservice | |
+| [ ] | Channel Patterns (Algoritma) | |
+| [ ] | WebSocket Server | |
+| [ ] | Context Implementation (Algoritma) | |
+| [ ] | Memory Pool (Algoritma) | |
+| [ ] | Rate Limiter (Algoritma) | |
+| [ ] | Circuit Breaker (Algoritma) | |
+
+### Seviye 4: System Programming
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | System Monitor | |
+| [ ] | A* Pathfinding (Algoritma) | |
+| [ ] | Network Scanner | |
+| [ ] | Knapsack Problem (Algoritma) | |
+| [ ] | File System Watcher | |
+| [ ] | Longest Common Subsequence (Algoritma) | |
+| [ ] | Topological Sort (Algoritma) | |
+| [ ] | Minimum Spanning Tree (Algoritma) | |
+| [ ] | String Matching (KMP) (Algoritma) | |
+
+### Seviye 5: Cloud Native
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Kubernetes Operator | |
+| [ ] | Red-Black Tree (Algoritma) | |
+| [ ] | Service Mesh | |
+| [ ] | Suffix Array (Algoritma) | |
+| [ ] | Distributed System | |
+| [ ] | Network Flow (Algoritma) | |
+| [ ] | Convex Hull (Algoritma) | |
+| [ ] | Fast Fourier Transform (Algoritma) | |
+| [ ] | Persistent Data Structures (Algoritma) | |
+| [ ] | Heavy-Light Decomposition (Algoritma) | |
+| [ ] | Advanced Dynamic Programming (Algoritma) | |
+| [ ] | Segment Tree with Lazy Propagation (Algoritma) | |
+| [ ] | Rabin-Karp String Matching (Algoritma) | |
+| [ ] | Advanced Graph Algorithms (Algoritma) | |
+| [ ] | Computational Geometry (Algoritma) | |
+
+## 4. DART/FLUTTER ÖĞRENME YOLU
+
+### Seviye 1: Temel Flutter
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Basit UI Uygulaması | |
+| [ ] | List Operations (Algoritma) | |
+| [ ] | State Management | |
+| [ ] | String Manipulation (Algoritma) | |
+| [ ] | Navigation | |
+| [ ] | Map and Set Operations (Algoritma) | |
+| [ ] | Async Programming (Algoritma) | |
+| [ ] | Stream Processing (Algoritma) | |
+
+### Seviye 2: Veri Yönetimi
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Local Storage App | |
+| [ ] | Binary Search Tree (Algoritma) | |
+| [ ] | API Integration | |
+| [ ] | Graph Implementation (Algoritma) | |
+| [ ] | State Management (Provider) | |
+| [ ] | Heap Implementation (Algoritma) | |
+| [ ] | LRU Cache (Algoritma) | |
+| [ ] | Trie Data Structure (Algoritma) | |
+| [ ] | Union-Find (Algoritma) | |
+
+### Seviye 3: İleri UI
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Custom Widgets | |
+| [ ] | Animation Algorithms (Algoritma) | |
+| [ ] | Complex UI | |
+| [ ] | Gesture Recognition (Algoritma) | |
+| [ ] | Platform Integration | |
+| [ ] | Layout Algorithms (Algoritma) | |
+| [ ] | Memory Management (Algoritma) | |
+| [ ] | Performance Optimization (Algoritma) | |
+| [ ] | State Synchronization (Algoritma) | |
+
+### Seviye 4: Backend Integration
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Firebase Integration | |
+| [ ] | A* Pathfinding (Algoritma) | |
+| [ ] | Real-time App | |
+| [ ] | Knapsack Problem (Algoritma) | |
+| [ ] | Push Notifications | |
+| [ ] | Longest Common Subsequence (Algoritma) | |
+| [ ] | Topological Sort (Algoritma) | |
+| [ ] | Minimum Spanning Tree (Algoritma) | |
+| [ ] | String Matching (KMP) (Algoritma) | |
+
+### Seviye 5: Production Ready
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | E-commerce App | |
+| [ ] | Red-Black Tree (Algoritma) | |
+| [ ] | Social Media App | |
+| [ ] | Suffix Array (Algoritma) | |
+| [ ] | Cross-platform App | |
+| [ ] | Network Flow (Algoritma) | |
+| [ ] | Convex Hull (Algoritma) | |
+| [ ] | Fast Fourier Transform (Algoritma) | |
+| [ ] | Persistent Data Structures (Algoritma) | |
+| [ ] | Heavy-Light Decomposition (Algoritma) | |
+| [ ] | Advanced Dynamic Programming (Algoritma) | |
+| [ ] | Segment Tree with Lazy Propagation (Algoritma) | |
+| [ ] | Rabin-Karp String Matching (Algoritma) | |
+| [ ] | Advanced Graph Algorithms (Algoritma) | |
+| [ ] | Computational Geometry (Algoritma) | |
+
+## 5. C ÖĞRENME YOLU
+
+### Seviye 1: Temel C
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Basit Hesap Makinesi | |
+| [ ] | Array Operations (Algoritma) | |
+| [ ] | Dosya İşlemleri | |
+| [ ] | String Processing (Algoritma) | |
+| [ ] | Veri Yapıları | |
+| [ ] | Pointer Arithmetic (Algoritma) | |
+| [ ] | Recursion Implementation (Algoritma) | |
+| [ ] | Bit Manipulation (Algoritma) | |
+
+### Seviye 2: Sistem Programlama
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Process Management | |
+| [ ] | Binary Search Tree (Algoritma) | |
+| [ ] | Inter-process Communication | |
+| [ ] | Graph Implementation (Algoritma) | |
+| [ ] | Thread Programming | |
+| [ ] | Heap Implementation (Algoritma) | |
+| [ ] | Hash Table (Algoritma) | |
+| [ ] | Trie Data Structure (Algoritma) | |
+| [ ] | Union-Find (Algoritma) | |
+
+### Seviye 3: Network Programming
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | TCP Server | |
+| [ ] | Memory Allocator (Algoritma) | |
+| [ ] | HTTP Parser | |
+| [ ] | Garbage Collector (Algoritma) | |
+| [ ] | Network Scanner | |
+| [ ] | Virtual Machine (Algoritma) | |
+| [ ] | Regular Expression Engine (Algoritma) | |
+| [ ] | Compression Algorithm (Algoritma) | |
+| [ ] | Encryption Implementation (Algoritma) | |
+
+### Seviye 4: Embedded Systems
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | LED Controller | |
+| [ ] | A* Pathfinding (Algoritma) | |
+| [ ] | Sensor Interface | |
+| [ ] | Knapsack Problem (Algoritma) | |
+| [ ] | Real-time System | |
+| [ ] | Longest Common Subsequence (Algoritma) | |
+| [ ] | Topological Sort (Algoritma) | |
+| [ ] | Minimum Spanning Tree (Algoritma) | |
+| [ ] | String Matching (KMP) (Algoritma) | |
+
+### Seviye 5: Advanced
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Memory Allocator | |
+| [ ] | Red-Black Tree (Algoritma) | |
+| [ ] | Simple OS | |
+| [ ] | Suffix Array (Algoritma) | |
+| [ ] | Compiler | |
+| [ ] | Network Flow (Algoritma) | |
+| [ ] | Convex Hull (Algoritma) | |
+| [ ] | Fast Fourier Transform (Algoritma) | |
+| [ ] | Persistent Data Structures (Algoritma) | |
+| [ ] | Heavy-Light Decomposition (Algoritma) | |
+| [ ] | Advanced Dynamic Programming (Algoritma) | |
+| [ ] | Segment Tree with Lazy Propagation (Algoritma) | |
+| [ ] | Rabin-Karp String Matching (Algoritma) | |
+| [ ] | Advanced Graph Algorithms (Algoritma) | |
+| [ ] | Computational Geometry (Algoritma) | |
+
+## 6. ÇOK DİLLİ ENTEGRASYON PROJELERİ
+
+### Seviye 1: Basit Entegrasyonlar
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Çok Dilli Hesap Makinesi | |
+| [ ] | Dosya İşlem Sistemi | |
+
+### Seviye 2: Orta Seviye Entegrasyonlar
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Mikroservis E-ticaret Sistemi | |
+| [ ] | Real-time Chat Platform | |
+
+### Seviye 3: İleri Seviye Entegrasyonlar
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | IoT Veri Toplama Sistemi | |
+| [ ] | Sosyal Medya Platformu | |
+
+### Seviye 4: Enterprise Seviye Projeler
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Fintech Platformu | |
+| [ ] | Healthcare Platformu | |
+
+### Seviye 5: DevOps ve Cloud Native
+
+| Tamamlandı mı? | Proje/Problem Adı | Açıklama/Notlar |
+|:--------------:|:------------------|:---------------|
+| [ ] | Multi-Cloud Deployment Platform | |
+| [ ] | AI/ML Platformu | |
+
+## İLERLEME TAKİP TABLOSU
+
+### Python
+- Toplam Proje: 15
+- Toplam Algoritma: 50
+- Tamamlanan: 1/65
+
+### JavaScript/TypeScript
+- Toplam Proje: 15
+- Toplam Algoritma: 50
+- Tamamlanan: 0/65
+
+### Go
+- Toplam Proje: 15
+- Toplam Algoritma: 50
+- Tamamlanan: 0/65
+
+### Dart/Flutter
+- Toplam Proje: 15
+- Toplam Algoritma: 50
+- Tamamlanan: 0/65
+
+### C
+- Toplam Proje: 15
+- Toplam Algoritma: 50
+- Tamamlanan: 0/65
+
+### Çok Dilli Entegrasyon
+- Toplam Proje: 10
+- Tamamlanan: 0/10
+
+## GENEL TOPLAM
+- Toplam Proje: 85
+- Toplam Algoritma: 250
+- Toplam Çok Dilli: 10
+- **TOPLAM: 345 Öğrenme Hedefi**
+
+## NOTLAR
+- Her proje tamamlandığında [ ] işareti [x] olarak değiştirilecek
+- Açıklama/Notlar bölümüne proje sonrası öğrenilenler ve iyileştirme önerileri yazılacak
+- Bu liste sürekli güncellenecek ve ilerleme takip edilecek

@@ -1,0 +1,874 @@
+GENEL BİLGİLER
+●
+Öğrenme Sırası: Python → JavaScript/TypeScript → Go → Dart/Flutter → C
+●
+Her dil için ayrı projeler tamamlandıktan sonra çok dilli entegrasyon projeleri
+başlayacaktır.
+●
+Her proje bir öncekinden daha karmaşık ve gerçek dünya problemlerine yakındır.
+●
+Tüm projeler Temiz Mimari ve SOLID prensiplerine uygun olacaktır.
+●
+Öğrenme Kaynakları: Öğrenci, her proje ve algoritma problemi için internet
+kaynaklarından (dokümantasyonlar, tutorial'lar, bloglar) ve yapay zeka araçlarından
+(örneğin Google Gemini, ChatGPT vb.) aktif olarak destek alacaktır.
+1. PYTHON ÖĞRENME YOLU
+Seviye 1: Temel Kavramlar ve İlk Problemler
+1. Hızlı Kazanç: "Hello World" Çeşitleri: Python'da temel çıktı fonksiyonlarını kullanarak
+(print) konsola "Merhaba Dünya" yazdırma ve basit bir grafik arayüzü (örneğin tkinter ile)
+kullanarak aynı mesajı bir pencerede gösterme. Amaç: Dilin temel yapısına ve farklı çıktı
+yöntemlerine hızlıca adapte olmak.
+2. Basit Hesap Makinesi: Kullanıcıdan matematiksel ifadeler alarak temel aritmetik işlemleri
+(toplama, çıkarma, çarpma, bölme) yapabilen ve olası hataları (sayı olmayan girdi gibi)
+yönetebilen bir komut satırı uygulaması geliştirme. Amaç: Temel aritmetik operatörleri,
+kullanıcı girdisini ve hata yönetimini öğrenmek.
+3. Algoritma: İki Sayının Toplamı: Verilen bir dizide (array) toplamı belirli bir hedefe eşit
+olan iki sayıyı bulma. (Array, Hash Table kullanımı, Zaman Karmaşıklığı: O(n), Alan
+Karmaşıklığı: O(n)). Amaç: Temel veri yapılarını kullanarak problem çözme yeteneğini
+geliştirmek.
+4. Sayı Tahmin Oyunu: Bilgisayarın rastgele seçtiği bir sayıyı kullanıcının tahmin etmeye
+çalıştığı, kullanıcının girdilerine göre ipuçları veren ve doğru tahmin edene kadar devam
+eden interaktif bir oyun geliştirme. Amaç: while döngüleri, koşullu ifadeler ve rastgele sayı
+üretimi konularında pratik yapmak.
+5. Algoritma: Palindrom Kontrolü: Verilen bir dizenin (string) palindrom olup olmadığını
+kontrol etme (hem tersten hem düzden okunduğunda aynı olan kelime/cümle). (String
+manipulation, Two pointer tekniği, Zaman Karmaşıklığı: O(n)). Amaç: Karakter dizileriyle
+çalışma ve çift işaretçi tekniğini öğrenmek.
+6. Basit Quiz Uygulaması: Kullanıcıya önceden tanımlanmış sorular soran, cevaplarını alıp
+doğrulayan, puan hesaplayan ve sonuçları bir dosyaya kaydedip okuyabilen basit bir bilgi
+yarışması uygulaması geliştirme. Amaç: Liste ve sözlük kullanımı, dosya okuma/yazma
+becerilerini geliştirmek.
+7. Algoritma: Faktöriyel Hesaplama: Verilen bir sayının faktöriyelini hesaplama.
+(Recursion ve iteration, Big number handling, Zaman Karmaşıklığı analizi). Amaç:
+Özyineleme (recursion) ve yineleme (iteration) kavramlarını anlamak ve karşılaştırmak.
+8. Algoritma: Fibonacci Dizisi: Fibonacci dizisinin n. terimini hesaplama. (Recursion vs
+iteration, Dinamik Programlama giriş). Amaç: Farklı çözüm yaklaşımlarını değerlendirme
+ve basit dinamik programlama kavramlarına giriş.
+Seviye 2: Veri Yapıları ve Orta Seviye Algoritmalar
+1. Kişi Rehberi: Kişilerin ad, soyad, telefon gibi bilgilerini saklayabilen, yeni kişi ekleme,
+mevcut kişiyi düzenleme, silme ve arama gibi temel CRUD (Oluşturma, Okuma,
+Güncelleme, Silme) operasyonlarını JSON dosyası kullanarak yönetebilen bir uygulama
+geliştirme. Amaç: Nesne tabanlı programlama (OOP) prensiplerini ve JSON veri
+formatıyla çalışmayı öğrenmek.
+2. Algoritma: En Uzun Ortak Önek: Bir dizi dize içinde en uzun ortak öneki bulma. (String
+manipulation, Prefix Tree (Trie) kavramına giriş). Amaç: Dize algoritmalarında yaygın
+olarak kullanılan önek kavramını anlamak.
+3. Basit Banka Hesabı: Farklı hesap türleri (örneğin vadesiz, vadeli) için kalıtım kullanarak
+nesne tabanlı bir bankacılık sistemi simülasyonu oluşturma; para yatırma, çekme gibi
+işlemlerde oluşabilecek hataları (yetersiz bakiye gibi) yönetme ve işlem kayıtlarını tutma
+yeteneği ekleme. Amaç: Kalıtım, polimorfizm gibi ileri OOP konularını pratik etmek.
+4. Algoritma: Valid Parantezler: Bir dizedeki parantezlerin ((), {}, []) geçerli olup olmadığını
+kontrol etme. (Stack veri yapısı). Amaç: Yığın veri yapısını problem çözümünde
+kullanmak.
+5. Dosya Organizatörü: Belirtilen bir dizindeki dosyaları türlerine (resim, belge, video vb.)
+göre otomatik olarak farklı klasörlere taşıyarak düzenleyen ve büyük dosya işlemlerinde
+performansı artırmak için threading (çoklu iş parçacığı) kullanabilen bir araç geliştirme.
+Amaç: Dosya sistemi etkileşimlerini, çoklu iş parçacığı ve temel paralel programlama
+kavramlarını öğrenmek.
+6. Algoritma: En Büyük Alt Dizi Toplamı: Verilen bir dizideki en büyük toplamı olan sürekli
+alt diziyi bulma. (Kadane algoritması, Dinamik Programlama). Amaç: Diziler üzerinde
+dinamik programlama yaklaşımlarını anlamak.
+7. Algoritma: Merge Sorted Listeler: İki sıralı bağlı listeyi birleştirerek yeni bir sıralı bağlı
+liste oluşturma. (Linked List manipülasyonu). Amaç: Bağlı listelerle çalışma ve birleştirme
+algoritmalarını öğrenmek.
+Seviye 3: Web, API ve İleri Algoritmalar
+1. Basit Web Sunucusu: Flask framework kullanarak HTTP GET/POST isteklerini
+karşılayabilen, farklı URL'ler için içerik sunabilen (örneğin HTML sayfaları), basit bir web
+sunucusu uygulaması geliştirme. Amaç: Web sunucusu prensiplerini, routing ve
+request/response modelini anlamak.
+2. Algoritma: Ağaç Maksimum Derinliği: Bir ikili ağacın maksimum derinliğini bulma.
+(Binary Tree, BFS/DFS). Amaç: Ağaç veri yapısı üzerinde temel algoritmaları uygulama.
+3. Hava Durumu Uygulaması: Harici bir hava durumu API'sinden veri çekerek (API
+çağrıları), JSON formatındaki bu veriyi ayrıştırıp (parsing), kullanıcıya belirli bir konumun
+güncel hava durumu bilgilerini (sıcaklık, nem vb.) gösterebilen ve API'den gelen hataları
+yönetebilen bir uygulama geliştirme. Amaç: Harici API'lerle etkileşim kurma, JSON işleme
+ve hata yönetimi.
+4. Algoritma: Ters Bağlı Liste: Verilen bir bağlı listeyi tersine çevirme. (Linked List
+manipülasyonu). Amaç: Bağlı liste operasyonlarında işaretçi manipülasyonunu
+öğrenmek.
+5. Basit Blog Sistemi: Kullanıcıların gönderi oluşturup düzenleyebileceği, verileri SQLite
+veritabanında saklayan, temel kullanıcı kimlik doğrulama (giriş/kayıt) özelliklerine sahip
+basit bir web tabanlı blog sistemi geliştirme. Amaç: Veritabanı entegrasyonu, temel
+CRUD operasyonları ve kullanıcı kimlik doğrulama prensiplerini öğrenmek.
+6. Algoritma: Tek Sayı Düğümü Bulma: Bir bağlı listede tekrar etmeyen tek bir sayıyı
+bulma. (Hash Table veya XOR). Amaç: Veri yapılarını ve bit manipülasyonunu verimli
+problem çözümünde kullanmak.
+Seviye 4: Veri Analizi ve Gelişmiş Uygulamalar
+1. CSV Veri Analizi: Pandas kütüphanesini kullanarak büyük CSV dosyalarındaki verileri
+okuyup temizleyebilen, belirli koşullara göre filtreleyebilen, istatistiksel özetler çıkarabilen
+ve Matplotlib ile bu verileri görselleştiren (grafikler oluşturan) bir veri analizi aracı
+geliştirme. Amaç: Veri manipülasyonu, temizliği ve görselleştirme becerilerini kazanmak.
+2. Algoritma: Graf BFS/DFS: Bir graf üzerinde Genişlik Öncelikli Arama (BFS) ve Derinlik
+Öncelikli Arama (DFS) algoritmalarını uygulama. (Graph, Queue/Stack). Amaç: Graf
+teorisi ve temel arama algoritmalarını öğrenmek.
+3. Basit E-ticaret Sistemi: Ürün listeleme, sepete ekleme, sepeti yönetme gibi temel
+e-ticaret özelliklerini bir REST API üzerinden sunan, JWT (JSON Web Token) ile kullanıcı
+kimlik doğrulamasını sağlayan ve ödeme işlemlerini simüle edebilen bir sistem geliştirme.
+Amaç: RESTful API tasarımı, JWT tabanlı kimlik doğrulama ve temel e-ticaret akışları.
+4. Algoritma: Dikdörtgen Alanı: Verilen bir dizi dikdörtgenin çakışan alanını veya toplam
+alanını hesaplama. (Geometrik algoritmalar, sweep line kavramı). Amaç: Geometrik
+problemleri algoritmik olarak çözme.
+5. Web Scraping Uygulaması: BeautifulSoup ve/veya Selenium kütüphanelerini kullanarak
+belirli web sitelerinden otomatik olarak veri çekebilen (örneğin ürün fiyatları, haber
+başlıkları) ve bu veriyi yapılandırılmış bir formatta kaydedebilen bir web kazıma aracı
+geliştirme. Amaç: Web'den veri toplama tekniklerini ve farklı kütüphanelerin kullanımını
+öğrenmek.
+6. Algoritma: Minimum Spanning Tree (MST): Bir grafın minimum yayılan ağacını bulma
+(örneğin Prim veya Kruskal algoritmaları). (Graph, Greedy algorithms). Amaç: Graf
+algoritmalarında optimizasyon ve açgözlü algoritmalar.
+Seviye 5: İleri Seviye ve Uzmanlaşma
+1. Mikroservis Mimarisi Uygulaması: Büyük bir uygulamayı, her biri kendi işlevini yerine
+getiren bağımsız küçük servisler (mikroservisler) halinde tasarlama ve geliştirme. Docker
+kullanarak bu servisleri izole konteynerlerde çalıştırma, servisler arası iletişimi sağlama ve
+yük dengeleme (load balancing) stratejileri uygulama. Amaç: Mikroservis mimarisini
+anlama, dağıtık sistemler ve konteynerizasyon konularında derinleşmek.
+○
+Derin Dalış: Bu seviyede, Python'ın GIL (Global Interpreter Lock) mekanizması,
+asenkron programlama (asyncio) derinlemesine incelenmeli.
+2. Machine Learning Projesi: Scikit-learn, TensorFlow veya PyTorch gibi kütüphaneleri
+kullanarak belirli bir veri seti üzerinde bir makine öğrenimi modeli (örneğin sınıflandırma
+veya regresyon) eğitme, eğitilen modeli kullanarak tahminler yapabilen bir API (uygulama
+programlama arayüzü) servisi oluşturma. Amaç: Makine öğrenimi yaşam döngüsünü,
+model eğitimi ve dağıtımını anlamak.
+3. Algoritma: Kısa Yol Algoritmaları: Dijkstra veya Bellman-Ford gibi kısa yol
+algoritmalarını uygulama. (Graph, Dynamic Programming). Amaç: En iyi yol bulma ve
+optimizasyon algoritmaları.
+4. Real-time Chat Uygulaması: Kullanıcıların anlık mesajlaşabildiği, WebSocket
+protokolünü kullanarak gerçek zamanlı iletişimi sağlayan, Redis gibi bir önbellek
+mekanizmasıyla performansı artıran bir chat uygulaması geliştirme. Amaç: Gerçek
+zamanlı iletişim, WebSocket'ler ve önbellekleme stratejileri.
+5. Algoritma: Network Flow: Maksimum akış (Max Flow) veya minimum kesit (Min Cut) gibi
+ağ akış algoritmalarını uygulama. (Graph, Max Flow Min Cut Theorem). Amaç: Ağ
+optimizasyonu ve ileri graf teorisi.
+2. JAVASCRIPT/TYPESCRIPT ÖĞRENME YOLU
+Seviye 1: Temel JavaScript ve DOM Manipülasyonu
+1. Hızlı Kazanç: Konsol ve DOM Etkileşimi: Tarayıcı konsolunda "Merhaba Dünya"
+yazdırma ve basit bir HTML elementinin metnini JavaScript ile değiştirme. Amaç: Tarayıcı
+ortamına ve temel DOM erişimine hızlıca adapte olmak.
+2. DOM Manipülasyonu: HTML sayfasındaki elementleri JavaScript ile seçebilen, olayları
+(tıklama, form gönderme gibi) dinleyebilen ve kullanıcı etkileşimine göre sayfa içeriğini
+dinamik olarak değiştirebilen (ekleme, silme, güncelleme) bir web sayfası oluşturma.
+Amaç: Temel DOM (Belge Nesne Modeli) manipülasyon becerilerini geliştirmek.
+3. Algoritma: İki Sayının Toplamı: Verilen bir dizide toplamı belirli bir hedefe eşit olan iki
+sayıyı bulma. (Array, Hash Table kullanımı, Zaman Karmaşıklığı: O(n), Alan Karmaşıklığı:
+O(n)). Amaç: JavaScript'te temel veri yapılarını kullanarak problem çözme yeteneğini
+geliştirmek.
+4. Basit Oyun (Tic-tac-toe): Kullanıcıların sırayla işaretleme yaptığı, kazanma durumlarını
+kontrol eden ve oyunun durumunu kullanıcı arayüzünde güncelleyebilen basit bir
+Tic-tac-toe (XOX) web oyunu geliştirme. Amaç: Olay dinleyicileri (event listeners), koşullu
+mantık ve temel oyun döngüsü oluşturma.
+5. Algoritma: Palindrom Kontrolü: Verilen bir dizenin palindrom olup olmadığını kontrol
+etme. (String manipulation, Two pointer tekniği, Zaman Karmaşıklığı: O(n)). Amaç:
+JavaScript'te dize manipülasyonu ve işaretçi teknikleri.
+6. Todo List Uygulaması: Kullanıcıların görev ekleyip, tamamlayıp, silebildiği bir
+yapılacaklar listesi uygulaması. Görevleri tarayıcının LocalStorage özelliğini kullanarak
+kaydetme ve tarayıcı kapatıldığında bile kalıcı olmasını sağlama. Amaç: LocalStorage
+kullanımı ve temel CRUD operasyonlarını web ortamında uygulama.
+7. Algoritma: Faktöriyel Hesaplama: Verilen bir sayının faktöriyelini hesaplama.
+(Recursion ve iteration, Zaman Karmaşıklığı analizi). Amaç: JavaScript'te özyineleme ve
+yineleme.
+8. Algoritma: Fibonacci Dizisi: Fibonacci dizisinin n. terimini hesaplama. (Recursion vs
+iteration, Dinamik Programlama giriş). Amaç: JavaScript'te farklı çözüm yaklaşımlarını
+değerlendirme.
+Seviye 2: Modern JavaScript ve Veri Yönetimi
+1. Weather Dashboard: Fetch API kullanarak harici bir hava durumu servisine istek
+atabilen, async/await ile asenkron işlemleri yönetebilen ve API'den gelen verileri kullanıcı
+dostu bir arayüzde gösterebilen dinamik bir hava durumu panosu uygulaması geliştirme.
+Amaç: Asenkron JavaScript (Promises, async/await) ve harici API entegrasyonu.
+2. Algoritma: En Uzun Ortak Önek: Bir dizi dize içinde en uzun ortak öneki bulma. (String
+manipulation, Prefix Tree (Trie) kavramına giriş). Amaç: JavaScript'te dize
+algoritmalarında yaygın olarak kullanılan önek kavramı.
+3. Shopping Cart: Ürünleri listeleyip sepete ekleyebilen, sepet içeriğini yönetebilen (adet
+değiştirme, çıkarma) ve sepet bilgilerini LocalStorage kullanarak kalıcı hale getiren bir
+alışveriş sepeti uygulaması geliştirme. Amaç: LocalStorage ile daha karmaşık veri
+yapılarını depolama ve yönetme.
+4. Algoritma: Valid Parantezler: Bir dizedeki parantezlerin geçerli olup olmadığını kontrol
+etme. (Stack veri yapısı). Amaç: Yığın veri yapısını JavaScript'te kullanma.
+5. Form Validation: Kullanıcıların doldurduğu formlardaki girdileri (e-posta formatı, şifre
+gücü gibi) düzenli ifadeler (regex) ve özel doğrulama kuralları ile kontrol eden, geçersiz
+girdiler için kullanıcılara anlık geri bildirim sağlayan bir form doğrulama sistemi geliştirme.
+Amaç: Form doğrulama, regex kullanımı ve kullanıcı geri bildirimi.
+6. Algoritma: En Büyük Alt Dizi Toplamı: Verilen bir dizideki en büyük toplamı olan sürekli
+alt diziyi bulma. (Kadane algoritması, Dinamik Programlama). Amaç: JavaScript'te
+dinamik programlama yaklaşımları.
+7. Algoritma: Merge Sorted Listeler: İki sıralı bağlı listeyi birleştirerek yeni bir sıralı bağlı
+liste oluşturma. (Linked List manipülasyonu). Amaç: JavaScript'te bağlı listeler ve
+birleştirme algoritmaları.
+Seviye 3: TypeScript ve React/Node.js Temelleri
+1. Type-safe Calculator: TypeScript'in tip tanım özelliklerini (interface, generics) kullanarak
+girdi ve çıktı tiplerini katı bir şekilde kontrol eden, böylece geliştirme aşamasında olası tip
+hatalarını yakalayan daha güvenilir bir hesap makinesi uygulaması geliştirme. Amaç:
+TypeScript'in tipleme sistemini ve faydalarını anlamak.
+2. Algoritma: Ağaç Maksimum Derinliği: Bir ikili ağacın maksimum derinliğini bulma.
+(Binary Tree, BFS/DFS). Amaç: TypeScript ortamında ağaç veri yapısı algoritmaları.
+3. API Client: Axios gibi bir HTTP istemci kütüphanesi ve TypeScript'in güçlü tipleme
+yeteneklerini kullanarak, belirli bir REST API ile etkileşime geçen, gelen ve giden verinin
+tip güvenliğini sağlayan ve API'den dönen hataları düzenli bir şekilde yöneten bir istemci
+uygulaması geliştirme. Amaç: TypeScript ile güvenli API istemcisi geliştirme.
+4. Algoritma: Ters Bağlı Liste: Verilen bir bağlı listeyi tersine çevirme. (Linked List
+manipülasyonu). Amaç: TypeScript'te bağlı liste ters çevirme.
+5. React-like Mini Framework: Kendi basit "sanal DOM" (Virtual DOM) mekanizmasını,
+component tabanlı yapıyı ve temel state yönetimini simüle eden, React gibi modern UI
+kütüphanelerinin altında yatan prensipleri anlamaya yönelik basit bir
+JavaScript/TypeScript framework'ü geliştirme. Amaç: Modern UI kütüphanelerinin iç
+işleyişini anlamak.
+6. Algoritma: Tek Sayı Düğümü Bulma: Bir bağlı listede tekrar etmeyen tek bir sayıyı
+bulma. (Hash Table veya XOR). Amaç: TypeScript'te veri yapıları ve bit manipülasyonu.
+Seviye 4: Backend (Node.js) ve Full-stack Temelleri
+1. REST API Server (Node.js/Express): Express.js framework'ünü kullanarak HTTP
+isteklerini işleyen, middleware (ara yazılımlar) ile istekleri yönlendiren (routing), kimlik
+doğrulama, yetkilendirme gibi işlemleri yöneten ve JSON yanıtları döndüren bir REST API
+sunucusu oluşturma. Amaç: Node.js ile arka uç geliştirmenin temellerini öğrenmek.
+2. Algoritma: Graf BFS/DFS: Bir graf üzerinde Genişlik Öncelikli Arama (BFS) ve Derinlik
+Öncelikli Arama (DFS) algoritmalarını uygulama. (Graph, Queue/Stack). Amaç:
+JavaScript/TypeScript'te graf algoritmaları.
+3. Authentication System (Node.js): Kullanıcıların kayıt olup giriş yapabildiği, JWT (JSON
+Web Tokens) kullanarak güvenli oturumlar yöneten, şifreleri hashing (karma)
+algoritmalarıyla güvenli bir şekilde saklayan ve kullanıcı yetkilendirmesini sağlayan bir
+kimlik doğrulama sistemi geliştirme. Amaç: Kimlik doğrulama, yetkilendirme ve güvenlik
+prensipleri.
+4. Algoritma: Dikdörtgen Alanı: Verilen bir dizi dikdörtgenin çakışan alanını veya toplam
+alanını hesaplama. (Geometrik algoritmalar, sweep line kavramı). Amaç:
+JavaScript/TypeScript'te geometrik problemler.
+5. Real-time Chat (Node.js/Socket.io): Socket.io kütüphanesini kullanarak web istemcileri
+ile gerçek zamanlı çift yönlü iletişim kurabilen, sohbet odalarını yöneten ve mesajların
+kalıcılığını sağlayan bir chat sunucusu uygulaması geliştirme. Amaç: Gerçek zamanlı
+iletişim (WebSockets) ve sunucu tarafı uygulama.
+6. Algoritma: Minimum Spanning Tree (MST): Bir grafın minimum yayılan ağacını bulma
+(örneğin Prim veya Kruskal algoritmaları). (Graph, Greedy algorithms). Amaç:
+JavaScript/TypeScript'te graf algoritmaları ve optimizasyon.
+Seviye 5: Full-stack Uygulamalar ve İleri Algoritmalar
+1. E-commerce Platform (MERN/MEVN/PERN Stack): React ile dinamik bir ön uç
+(frontend) ve Node.js ile güçlü bir arka uç (backend) geliştirerek tam teşekküllü bir
+e-ticaret platformu oluşturma. Ürün kataloğu, kullanıcı yönetimi, sepet ve sipariş akışını
+içeren, MongoDB gibi bir veritabanı kullanan entegre bir sistem tasarlama. Amaç: Tam
+teşekküllü bir full-stack uygulama geliştirme.
+○
+Derin Dalış: Bu seviyede, JavaScript'in Event Loop, asenkron çalışma mantığı ve
+Node.js mimarisi derinlemesine incelenmeli.
+2. Algoritma: Kısa Yol Algoritmaları: Dijkstra veya Bellman-Ford gibi kısa yol
+algoritmalarını uygulama. (Graph, Dynamic Programming). Amaç:
+JavaScript/TypeScript'te en iyi yol bulma algoritmaları.
+3. Social Media Clone (Full-stack): Kullanıcı profilleri, gönderi paylaşımı, beğeni/yorum
+gibi temel sosyal medya özelliklerini içeren bir platform. Gerçek zamanlı güncellemeler,
+dosya yükleme (resim/video) ve gelişmiş arama yetenekleri ekleme. Amaç: Büyük ölçekli
+full-stack uygulama geliştirme pratikleri.
+4. Algoritma: Network Flow: Maksimum akış veya minimum kesit gibi ağ akış
+algoritmalarını uygulama. (Graph, Max Flow Min Cut Theorem). Amaç:
+JavaScript/TypeScript'te ağ optimizasyonu ve ileri graf teorisi.
+5. Progressive Web App (PWA): Normal bir web sitesinin özelliklerini mobil uygulamaların
+avantajlarıyla birleştiren (çevrimdışı çalışma, ana ekran simgesi, push bildirimleri) bir PWA
+geliştirme. Service workers kullanarak çevrimdışı işlevsellik ve performans optimizasyonu
+sağlama. Amaç: PWA mimarisi ve mobil uyumlu web uygulamaları.
+3. GO ÖĞRENME YOLU
+Seviye 1: Temel Go ve Concurrency İlk Adımlar
+1. Hızlı Kazanç: Fonksiyonel "Hello World": Go'da fmt paketini kullanarak konsola
+"Merhaba Dünya" yazdırma ve basit bir goroutine oluşturarak eş zamanlı bir çıktı
+gösterme. Amaç: Dilin temel yapısına ve Go'nun eş zamanlılık modeline hızlıca adapte
+olmak.
+2. CLI Hesap Makinesi: Komut satırı argümanlarını (flag parsing) işleyebilen, temel
+matematiksel işlemleri yapabilen ve kullanıcı tarafından yanlış veya eksik argüman
+verildiğinde hata mesajları döndürebilen bir komut satırı aracı geliştirme. Amaç: Temel Go
+syntax'ı, komut satırı argümanları ve hata yönetimi.
+3. Algoritma: İki Sayının Toplamı: Verilen bir dizide toplamı belirli bir hedefe eşit olan iki
+sayıyı bulma. (Array, Hash Table kullanımı, Zaman Karmaşıklığı: O(n), Alan Karmaşıklığı:
+O(n)). Amaç: Go'da temel veri yapıları ve problem çözme.
+4. Dosya İşlemleri: Belirtilen bir dizindeki dosyaları okuyabilen, yeni dosyalar oluşturabilen,
+dosyaları kopyalayıp taşıyabilen ve büyük dosya işlemlerinde performansı artırmak için
+goroutine'ler (hafif iş parçacıkları) ve channel'lar (iletişim kanalları) kullanarak eşzamanlı
+işlemleri yönetebilen bir dosya yönetim aracı geliştirme. Amaç: Dosya sistemi
+etkileşimleri ve Go'nun eş zamanlılık ilkel yapıları (goroutine, channel).
+5. Algoritma: Palindrom Kontrolü: Verilen bir dizenin palindrom olup olmadığını kontrol
+etme. (String manipulation, Two pointer tekniği, Zaman Karmaşıklığı: O(n)). Amaç: Go'da
+dize manipülasyonu ve işaretçi teknikleri.
+6. Basit HTTP Sunucusu: Go'nun net/http paketini kullanarak basit bir web sunucusu
+oluşturma. Gelen HTTP isteklerini belirli URL yollarına (route handling) göre
+yönlendirebilen ve JSON formatında yanıtlar dönebilen bir API servisi tasarlama. Amaç:
+Temel HTTP sunucusu oluşturma ve routing.
+7. Algoritma: Faktöriyel Hesaplama: Verilen bir sayının faktöriyelini hesaplama.
+(Recursion ve iteration, Zaman Karmaşıklığı analizi). Amaç: Go'da özyineleme ve
+yineleme.
+8. Algoritma: Fibonacci Dizisi: Fibonacci dizisinin n. terimini hesaplama. (Recursion vs
+iteration, Dinamik Programlama giriş). Amaç: Go'da farklı çözüm yaklaşımlarını
+değerlendirme.
+Seviye 2: Concurrency ve Orta Seviye Algoritmalar
+1. Web Crawler: Belirtilen bir başlangıç URL'sinden başlayarak web sayfalarını gezen,
+linkleri çıkarıp yeni sayfaları indiren, goroutine'ler ve channel'lar kullanarak eşzamanlı
+olarak birden fazla sayfayı işleyebilen ve aşırı yüklenmeyi önlemek için rate limiting (oran
+sınırlama) uygulayabilen bir web tarayıcı geliştirme. Amaç: Eş zamanlılık desenleri
+(producer-consumer), rate limiting ve web kazıma.
+2. Algoritma: En Uzun Ortak Önek: Bir dizi dize içinde en uzun ortak öneki bulma. (String
+manipulation, Prefix Tree (Trie) kavramına giriş). Amaç: Go'da dize algoritmalarında önek
+kavramı.
+3. Concurrent Download Manager: Birden fazla dosyayı aynı anda indirebilen, worker pool
+(işçi havuzu) deseni kullanarak paralel indirme görevlerini yöneten, channel buffering ile
+indirme kuyruklarını optimize eden ve indirme ilerlemesini takip eden bir yönetici
+uygulaması geliştirme. Amaç: Eş zamanlılıkta worker pool deseni ve kanal
+tamponlaması.
+4. Algoritma: Valid Parantezler: Bir dizedeki parantezlerin geçerli olup olmadığını kontrol
+etme. (Stack veri yapısı). Amaç: Go'da yığın veri yapısı.
+5. Real-time Data Processor: Gerçek zamanlı olarak veri akışlarını (örneğin sensör verileri,
+loglar) işleyebilen, channel desenlerini kullanarak veri işleme adımlarını senkronize eden,
+context paketi ile uzun süreli işlemlerin iptalini veya zaman aşımını yöneten ve
+uygulamanın düzgün kapanmasını sağlayan bir işlemci geliştirme. Amaç: Gerçek zamanlı
+veri işleme, context paketi ve hata yönetimi.
+6. Algoritma: En Büyük Alt Dizi Toplamı: Verilen bir dizideki en büyük toplamı olan sürekli
+alt diziyi bulma. (Kadane algoritması, Dinamik Programlama). Amaç: Go'da dinamik
+programlama yaklaşımları.
+7. Algoritma: Merge Sorted Listeler: İki sıralı bağlı listeyi birleştirerek yeni bir sıralı bağlı
+liste oluşturma. (Linked List manipülasyonu). Amaç: Go'da bağlı listeler ve birleştirme
+algoritmaları.
+Seviye 3: Web Development ve İleri Algoritmalar
+1. REST API (Gin Framework): Gin gibi popüler bir Go web framework'ünü kullanarak
+yüksek performanslı bir REST API geliştirme. Middleware kullanarak istekleri filtreleme,
+yetkilendirme gibi işlemleri yapma ve veritabanı (örneğin PostgreSQL) entegrasyonu ile
+veri persistansı sağlama. Amaç: Go ile performanslı API geliştirme ve veritabanı
+entegrasyonu.
+2. Algoritma: Ağaç Maksimum Derinliği: Bir ikili ağacın maksimum derinliğini bulma.
+(Binary Tree, BFS/DFS). Amaç: Go'da ağaç veri yapısı algoritmaları.
+3. Microservice (gRPC): gRPC gibi yüksek performanslı bir uzaktan yordam çağrısı (RPC)
+framework'ünü kullanarak bir mikroservis oluşturma. Servis keşfi (service discovery) ve
+yük dengeleme (load balancing) gibi dağıtık sistem prensiplerini uygulama. Amaç:
+Mikroservis mimarileri ve gRPC kullanımı.
+4. Algoritma: Ters Bağlı Liste: Verilen bir bağlı listeyi tersine çevirme. (Linked List
+manipülasyonu). Amaç: Go'da bağlı liste ters çevirme.
+5. WebSocket Server: WebSocket protokolünü kullanarak istemcilerle çift yönlü gerçek
+zamanlı iletişim kurabilen bir sunucu geliştirme. Bağlantı yönetimini sağlama ve gelen
+mesajları bağlı tüm istemcilere veya belirli gruplara (message broadcasting) yayınlama
+yeteneği ekleme. Amaç: Gerçek zamanlı web uygulamaları ve WebSocket protokolü.
+6. Algoritma: Tek Sayı Düğümü Bulma: Bir bağlı listede tekrar etmeyen tek bir sayıyı
+bulma. (Hash Table veya XOR). Amaç: Go'da veri yapıları ve bit manipülasyonu.
+Seviye 4: Sistem Programlama ve İleri Uygulamalar
+1. System Monitor: Go'nun os paketini ve diğer sistem seviyesi kütüphaneleri kullanarak
+işletim sistemi süreçlerini, CPU, bellek ve ağ gibi sistem kaynaklarını izleyen ve bu bilgileri
+konsolda veya basit bir web arayüzünde gösteren bir sistem monitörü geliştirme. Amaç:
+İşletim sistemi etkileşimi ve sistem kaynaklarının izlenmesi.
+2. Algoritma: Graf BFS/DFS: Bir graf üzerinde Genişlik Öncelikli Arama (BFS) ve Derinlik
+Öncelikli Arama (DFS) algoritmalarını uygulama. (Graph, Queue/Stack). Amaç: Go'da
+graf algoritmaları.
+3. Network Scanner: TCP/UDP protokollerini kullanarak belirli bir IP aralığındaki
+makinelerin açık portlarını tarayabilen (port scanning), çalışan servisleri tespit edebilen ve
+ağdaki cihazlar hakkında bilgi toplayabilen bir ağ tarayıcı uygulaması geliştirme. Amaç:
+Ağ programlama, soketler ve ağ güvenliği temelleri.
+4. Algoritma: Dikdörtgen Alanı: Verilen bir dizi dikdörtgenin çakışan alanını veya toplam
+alanını hesaplama. (Geometrik algoritmalar, sweep line kavramı). Amaç: Go'da geometrik
+problemler.
+5. File System Watcher: fsnotify gibi bir kütüphane kullanarak belirtilen bir dizindeki dosya
+sistemi değişikliklerini (oluşturma, silme, değiştirme) gerçek zamanlı olarak izleyen, bu
+olayları yakalayıp loglayan veya belirli işlemler (event handling) tetikleyen bir uygulama
+geliştirme. Amaç: Dosya sistemi izleme ve olay tabanlı programlama.
+6. Algoritma: Minimum Spanning Tree (MST): Bir grafın minimum yayılan ağacını bulma
+(örneğin Prim veya Kruskal algoritmaları). (Graph, Greedy algorithms). Amaç: Go'da graf
+algoritmaları ve optimizasyon.
+Seviye 5: Cloud Native ve Uzmanlaşma
+1. Kubernetes Operator: Kubernetes kümesindeki uygulamaların dağıtımını, yönetimini ve
+yaşam döngüsünü otomatikleştirmek için Custom Resources (CRD'ler) ve Controller
+desenini kullanarak özel bir Kubernetes operatörü geliştirme. Amaç: Kubernetes
+ekosistemi ve otomasyon.
+○
+Derin Dalış: Go'nun goroutine scheduler'ının nasıl çalıştığı, bellek yönetimi
+(garbage collector) ve standart kütüphane (net/http, context) detayları bu seviyede
+derinlemesine incelenmelidir.
+2. Algoritma: Kısa Yol Algoritmaları: Dijkstra veya Bellman-Ford gibi kısa yol
+algoritmalarını uygulama. (Graph, Dynamic Programming). Amaç: Go'da en iyi yol bulma
+algoritmaları.
+3. Service Mesh: Envoy proxy gibi bir araçla bir servis ağı (Service Mesh) kurarak
+mikroservisler arasındaki trafiği yöneten (yönlendirme, yük dengeleme), hata toleransı
+sağlayan ve servislerin gözlemlenebilirliğini (observability) artıran bir çözüm uygulama.
+Amaç: Servis ağı mimarileri ve dağıtık sistemlerde operasyonel mükemmellik.
+4. Algoritma: Network Flow: Maksimum akış veya minimum kesit gibi ağ akış
+algoritmalarını uygulama. (Graph, Max Flow Min Cut Theorem). Amaç: Go'da ağ
+optimizasyonu ve ileri graf teorisi.
+5. Distributed System (Raft Consensus): Raft consensus algoritması gibi bir konsensüs
+protokolünü uygulayarak birden fazla sunucu arasında veri tutarlılığını sağlayan dağıtık bir
+sistem geliştirme. Dağıtık günlükleme (distributed logging) ve hata toleransı (fault
+tolerance) mekanizmalarını dahil etme. Amaç: Dağıtık sistemlerin temelleri, konsensüs
+algoritmaları ve hata toleransı.
+4. DART/FLUTTER ÖĞRENME YOLU
+Seviye 1: Temel Flutter ve UI İlk Adımlar
+1. Hızlı Kazanç: Stateless Widget ile Görsel Mesaj: Flutter'da StatelessWidget kullanarak
+ekranda basit bir metin ("Merhaba Dünya") ve bir ikon gösterme. Amaç: Flutter'ın widget
+yapısına ve temel görsel bileşenlerine hızlıca adapte olmak.
+2. Basit UI Uygulaması: Flutter'ın temel widget'larını (Text, Image, Button, Row, Column)
+kullanarak basit ve statik bir kullanıcı arayüzü tasarlama. StatelessWidget'ları kullanarak
+değişmeyen arayüz bileşenlerini oluşturma ve temel stil özelliklerini uygulama. Amaç:
+Temel UI bileşenlerini kullanma ve düzen oluşturma.
+3. Algoritma: İki Sayının Toplamı: Verilen bir dizide toplamı belirli bir hedefe eşit olan iki
+sayıyı bulma. (Array, Hash Table kullanımı, Zaman Karmaşıklığı: O(n), Alan Karmaşıklığı:
+O(n)). Amaç: Dart'ta temel veri yapıları ve problem çözme.
+4. State Management (Basit): Kullanıcı etkileşimlerine (düğme tıklamaları gibi) göre
+arayüzün dinamik olarak değiştiği bir uygulama geliştirme. StatefulWidget'ları ve setState
+metodunu kullanarak uygulamanın durumunu yönetme ve widget'ların yaşam döngüsü
+(lifecycle methods) hakkında bilgi edinme. Amaç: StatefulWidget ve setState ile durum
+yönetiminin temelleri.
+5. Algoritma: Palindrom Kontrolü: Verilen bir dizenin palindrom olup olmadığını kontrol
+etme. (String manipulation, Two pointer tekniği, Zaman Karmaşıklığı: O(n)). Amaç: Dart'ta
+dize manipülasyonu ve işaretçi teknikleri.
+6. Navigation: Uygulama içinde farklı ekranlar arasında geçiş yapmayı sağlayan bir
+uygulama geliştirme. Route management kullanarak ekranları tanımlama, ekranlar
+arasında veri (parameter passing) aktarma ve uygulamanın dışından belirli bir ekrana
+yönlendirmeyi (deep linking) sağlama. Amaç: Uygulama içi ekranlar arası geçiş ve veri
+aktarımı.
+7. Algoritma: Faktöriyel Hesaplama: Verilen bir sayının faktöriyelini hesaplama.
+(Recursion ve iteration, Zaman Karmaşıklığı analizi). Amaç: Dart'ta özyineleme ve
+yineleme.
+8. Algoritma: Fibonacci Dizisi: Fibonacci dizisinin n. terimini hesaplama. (Recursion vs
+iteration, Dinamik Programlama giriş). Amaç: Dart'ta farklı çözüm yaklaşımlarını
+değerlendirme.
+Seviye 2: Veri Yönetimi ve Orta Seviye Algoritmalar
+1. Local Storage App: Kullanıcının cihazında küçük verileri (SharedPreferences ile) veya
+daha yapılandırılmış verileri (SQLite veritabanı ile) yerel olarak depolayabilen ve dosya
+sistemi operasyonları (File operations) ile medya dosyalarını yönetebilen bir mobil
+uygulama geliştirme. Amaç: Yerel veri depolama (key-value, veritabanı) ve dosya
+işlemleri.
+2. Algoritma: En Uzun Ortak Önek: Bir dizi dize içinde en uzun ortak öneki bulma. (String
+manipulation, Prefix Tree (Trie) kavramına giriş). Amaç: Dart'ta dize algoritmalarında
+önek kavramı.
+3. API Integration: Harici bir web API'sine HTTP istekleri gönderebilen, API'den gelen
+JSON verisini Dart nesnelerine dönüştürebilen (JSON parsing) ve ağ istekleri sırasında
+veya API'den gelen yanıtlar sırasında oluşabilecek hataları (error handling) yönetebilen bir
+mobil uygulama geliştirme. Amaç: Harici API'lerle etkileşim ve JSON veri işleme.
+4. Algoritma: Valid Parantezler: Bir dizedeki parantezlerin geçerli olup olmadığını kontrol
+etme. (Stack veri yapısı). Amaç: Dart'ta yığın veri yapısı.
+5. State Management (Provider/Riverpod): Provider veya Riverpod gibi popüler bir durum
+yönetimi paketi kullanarak uygulamanın karmaşık durumlarını merkezi bir yerden
+yönetme. Consumer widget'ları ile arayüzü duruma duyarlı hale getirme ve durum
+güncellemelerinin tüm uygulama genelinde verimli bir şekilde yayılmasını sağlama.
+Amaç: İleri durum yönetimi çözümleri.
+6. Algoritma: En Büyük Alt Dizi Toplamı: Verilen bir dizideki en büyük toplamı olan sürekli
+alt diziyi bulma. (Kadane algoritması, Dinamik Programlama). Amaç: Dart'ta dinamik
+programlama yaklaşımları.
+7. Algoritma: Merge Sorted Listeler: İki sıralı bağlı listeyi birleştirerek yeni bir sıralı bağlı
+liste oluşturma. (Linked List manipülasyonu). Amaç: Dart'ta bağlı listeler ve birleştirme
+algoritmaları.
+Seviye 3: İleri UI ve Mobil Özellikler
+1. Custom Widgets: Flutter'ın sağladığı temel widget'ların ötesine geçerek tamamen
+özelleştirilmiş, benzersiz kullanıcı arayüzü bileşenleri (Custom painters ile çizimler,
+Animation kütüphanesi ile akıcı animasyonlar) oluşturma ve kullanıcının
+dokunma/sürükleme gibi hareketlerini (Gesture detection) yakalayabilen arayüzler
+geliştirme. Amaç: Özelleştirilmiş UI oluşturma, animasyonlar ve hareket algılama.
+2. Algoritma: Ağaç Maksimum Derinliği: Bir ikili ağacın maksimum derinliğini bulma.
+(Binary Tree, BFS/DFS). Amaç: Dart'ta ağaç veri yapısı algoritmaları.
+3. Complex UI: Kaydırılabilir listelerde (Custom slivers) karmaşık düzenler oluşturma, farklı
+ekran boyutlarına ve cihaz yönlendirmelerine uyum sağlayabilen (Responsive design) ve
+yüksek performanslı, karmaşık kullanıcı arayüzleri geliştirme. Amaç: Karmaşık ve duyarlı
+UI tasarımı.
+4. Algoritma: Ters Bağlı Liste: Verilen bir bağlı listeyi tersine çevirme. (Linked List
+manipülasyonu). Amaç: Dart'ta bağlı liste ters çevirme.
+5. Platform Integration: Flutter uygulamasının Dart kodundan doğrudan yerel (native)
+platform özelliklerine (örneğin kamera, GPS, bildirimler) erişebilen ve platforma özgü
+kodları (Platform channels) Dart kodu ile entegre edebilen bir uygulama geliştirme. Amaç:
+Cihaz donanımıyla etkileşim ve platforma özgü kod entegrasyonu.
+6. Algoritma: Tek Sayı Düğümü Bulma: Bir bağlı listede tekrar etmeyen tek bir sayıyı
+bulma. (Hash Table veya XOR). Amaç: Dart'ta veri yapıları ve bit manipülasyonu.
+Seviye 4: Backend Entegrasyonu ve Gerçek Zamanlı Uygulamalar
+1. Firebase Integration: Google'ın Firebase platformunu kullanarak bir mobil uygulama
+geliştirme. Kullanıcı kimlik doğrulama (Authentication), gerçek zamanlı veritabanı
+(Firestore), bulut fonksiyonları (Cloud functions) gibi Firebase hizmetlerini mobil
+uygulamaya entegre etme. Amaç: Firebase tabanlı mobil uygulama geliştirme.
+2. Algoritma: Graf BFS/DFS: Bir graf üzerinde Genişlik Öncelikli Arama (BFS) ve Derinlik
+Öncelikli Arama (DFS) algoritmalarını uygulama. (Graph, Queue/Stack). Amaç: Dart'ta
+graf algoritmaları.
+3. Real-time App (WebSockets): WebSocket protokolünü kullanarak anlık veri akışlarını
+alıp işleyebilen, kullanıcıya canlı güncellemeler sunan ve Stream tabanlı veri işleme
+(Stream processing) mekanizmalarını kullanan bir mobil uygulama geliştirme. Amaç:
+Gerçek zamanlı veri akışı ve Stream API'si kullanımı.
+4. Algoritma: Dikdörtgen Alanı: Verilen bir dizi dikdörtgenin çakışan alanını veya toplam
+alanını hesaplama. (Geometrik algoritmalar, sweep line kavramı). Amaç: Dart'ta
+geometrik problemler.
+5. Push Notifications: Firebase Cloud Messaging (FCM) entegrasyonu ile uzaktan
+bildirimler (Push Notifications) alabilen, yerel bildirimleri (Local notifications) gösterebilen
+ve uygulama arka plandayken bile bildirimleri işleyebilen (Background processing) bir
+uygulama geliştirme. Amaç: Anlık bildirimler ve arka plan işlemleri.
+6. Algoritma: Minimum Spanning Tree (MST): Bir grafın minimum yayılan ağacını bulma
+(örneğin Prim veya Kruskal algoritmaları). (Graph, Greedy algorithms). Amaç: Dart'ta graf
+algoritmaları ve optimizasyon.
+Seviye 5: Production Ready ve İleri Algoritmalar
+1. E-commerce App: Tam işlevli bir e-ticaret mobil uygulaması geliştirme. Güvenli ödeme
+entegrasyonu (Payment integration), sepet yönetimi, sipariş oluşturma ve takibi gibi tüm
+alışveriş akışını içeren ve kullanıcı deneyimini ön planda tutan bir uygulama tasarlama.
+Amaç: Profesyonel seviye bir e-ticaret mobil uygulaması geliştirmek.
+○
+Derin Dalış: Dart'ın eş zamansızlık modeli (isolates, event loop), Flutter'ın
+rendering pipeline'ı ve platforma özgü optimizasyonlar derinlemesine incelenmeli.
+2. Algoritma: Kısa Yol Algoritmaları: Dijkstra veya Bellman-Ford gibi kısa yol
+algoritmalarını uygulama. (Graph, Dynamic Programming). Amaç: Dart'ta en iyi yol bulma
+algoritmaları.
+3. Social Media App: Kullanıcıların gönderi paylaşabildiği, medya (resim/video)
+yükleyebildiği, diğer kullanıcıları takip edebildiği ve anlık mesajlaşma gibi gerçek zamanlı
+özelliklere sahip bir sosyal medya mobil uygulaması geliştirme. Amaç: Karmaşık sosyal
+medya özelliklerini mobil ortamda uygulama.
+4. Algoritma: Network Flow: Maksimum akış veya minimum kesit gibi ağ akış
+algoritmalarını uygulama. (Graph, Max Flow Min Cut Theorem). Amaç: Dart'ta ağ
+optimizasyonu ve ileri graf teorisi.
+5. Cross-platform App (Web/Desktop): Tek bir kod tabanını kullanarak hem mobil
+(iOS/Android) hem de web ve hatta masaüstü platformlarında çalışabilen, ortak kod
+tabanının avantajlarını kullanan ve platforma özgü adaptasyonları yönetebilen bir
+uygulama geliştirme. Amaç: Çapraz platform geliştirme ve kod tekrarını azaltma.
+5. C ÖĞRENME YOLU
+Seviye 1: Temel C ve Bellek Yönetimi
+1. Hızlı Kazanç: Pointer Manipülasyonu: Basit bir değişkenin adresini ve içeriğini
+gösteren, ardından bir işaretçi (pointer) kullanarak bu değişkenin değerini değiştiren bir
+program yazma. Amaç: C'nin en temel ve kritik özelliklerinden olan işaretçilere hızlıca
+adapte olmak.
+2. Basit Hesap Makinesi: C dilinde temel aritmetik işlemleri gerçekleştiren, işaretçileri
+(pointers) kullanarak belleği doğrudan yöneten, dinamik bellek tahsisi (memory
+management) ve fonksiyon işaretçileri (function pointers) konularını ele alan bir konsol
+uygulaması geliştirme. Amaç: İşaretçiler, dinamik bellek yönetimi ve fonksiyon
+işaretçilerini anlamak.
+3. Algoritma: İki Sayının Toplamı: Verilen bir dizide toplamı belirli bir hedefe eşit olan iki
+sayıyı bulma. (Array, Hash Table kullanımı, Zaman Karmaşıklığı: O(n), Alan Karmaşıklığı:
+O(n)). Amaç: C'de temel veri yapıları ve problem çözme.
+4. Dosya İşlemleri: Dosyaları okuma, yazma ve manipüle etme (File I/O) gibi işlemleri
+gerçekleştiren, tampon bellek (buffer management) kullanımını optimize eden ve dosya
+işlemleri sırasında oluşabilecek hataları (error handling) etkili bir şekilde yöneten bir
+program geliştirme. Amaç: Dosya girişi/çıkışı, tampon yönetimi ve hata kontrolü.
+5. Algoritma: Palindrom Kontrolü: Verilen bir dizenin palindrom olup olmadığını kontrol
+etme. (String manipulation, Two pointer tekniği, Zaman Karmaşıklığı: O(n)). Amaç: C'de
+dize manipülasyonu ve işaretçi teknikleri.
+6. Veri Yapıları (Temel): Bağlı listeler (Linked lists), yığınlar (Stacks) ve kuyruklar (Queues)
+gibi temel soyut veri tiplerini C dilinde sıfırdan implemente etme, dinamik bellek tahsisi ile
+bu yapıları yönetme ve üzerlerinde temel operasyonları (ekleme, silme, arama) uygulama.
+Amaç: Temel veri yapılarının sıfırdan implementasyonu ve bellek yönetimi.
+7. Algoritma: Faktöriyel Hesaplama: Verilen bir sayının faktöriyelini hesaplama.
+(Recursion ve iteration, Zaman Karmaşıklığı analizi). Amaç: C'de özyineleme ve
+yineleme.
+8. Algoritma: Fibonacci Dizisi: Fibonacci dizisinin n. terimini hesaplama. (Recursion vs
+iteration, Dinamik Programlama giriş). Amaç: C'de farklı çözüm yaklaşımlarını
+değerlendirme.
+Seviye 2: Sistem Programlama ve Orta Seviye Algoritmalar
+1. Process Management: İşletim sistemi seviyesinde süreç oluşturma (fork()), farklı
+programları çalıştırma (exec()) ve çocuk süreçlerin tamamlanmasını bekleme (wait()) gibi
+temel süreç yönetimi fonksiyonlarını kullanarak bir program geliştirme. Amaç: İşletim
+sistemi süreç yönetimi ve sistem çağrıları.
+2. Algoritma: En Uzun Ortak Önek: Bir dizi dize içinde en uzun ortak öneki bulma. (String
+manipulation, Prefix Tree (Trie) kavramına giriş). Amaç: C'de dize algoritmalarında önek
+kavramı.
+3. Inter-process Communication (IPC): Farklı çalışan süreçler arasında veri alışverişini
+sağlamak için borular (Pipes), paylaşımlı bellek (Shared memory) ve mesaj kuyrukları
+(Message queues) gibi IPC mekanizmalarını kullanarak bir veya daha fazla program
+geliştirme. Amaç: Süreçler arası iletişim mekanizmaları.
+4. Algoritma: Valid Parantezler: Bir dizedeki parantezlerin geçerli olup olmadığını kontrol
+etme. (Stack veri yapısı). Amaç: C'de yığın veri yapısı.
+5. Thread Programming: pthread kütüphanesini kullanarak bir uygulama içinde çoklu iş
+parçacıkları (threads) oluşturma, iş parçacıkları arasında senkronizasyonu
+(synchronization) sağlamak için mutex'ler ve koşul değişkenleri kullanma ve yarış
+durumlarını (race conditions) önleme. Amaç: Çoklu iş parçacıklı programlama,
+senkronizasyon ve yarış durumları.
+6. Algoritma: En Büyük Alt Dizi Toplamı: Verilen bir dizideki en büyük toplamı olan sürekli
+alt diziyi bulma. (Kadane algoritması, Dinamik Programlama). Amaç: C'de dinamik
+programlama yaklaşımları.
+7. Algoritma: Merge Sorted Listeler: İki sıralı bağlı listeyi birleştirerek yeni bir sıralı bağlı
+liste oluşturma. (Linked List manipülasyonu). Amaç: C'de bağlı listeler ve birleştirme
+algoritmaları.
+Seviye 3: Ağ Programlama ve İleri Algoritmalar
+1. TCP Server: Socket programming kullanarak bir TCP sunucusu (TCP Server) geliştirme.
+İstemci bağlantılarını kabul edebilen, gelen veriyi okuyabilen, istemcilere veri
+gönderebilen ve birden fazla eşzamanlı bağlantıyı yönetebilen bir sunucu uygulaması
+tasarlama. Amaç: Soket programlama, TCP protokolü ve sunucu mimarileri.
+2. Algoritma: Ağaç Maksimum Derinliği: Bir ikili ağacın maksimum derinliğini bulma.
+(Binary Tree, BFS/DFS). Amaç: C'de ağaç veri yapısı algoritmaları.
+3. HTTP Parser: Gelen HTTP isteklerinin veya yanıtlarının ham metinlerini ayrıştırarak
+(String parsing), HTTP başlıklarını, metotları ve gövdeleri gibi bileşenleri çıkarabilen,
+bellek açısından verimli (Memory efficiency) bir HTTP ayrıştırıcısı geliştirme. Amaç:
+HTTP protokolü, metin ayrıştırma ve bellek optimizasyonu.
+4. Algoritma: Ters Bağlı Liste: Verilen bir bağlı listeyi tersine çevirme. (Linked List
+manipülasyonu). Amaç: C'de bağlı liste ters çevirme.
+5. Network Scanner: Ham soketler (Raw sockets) kullanarak düşük seviye ağ iletişimi
+gerçekleştirebilen, özel ağ paketleri (Packet crafting) oluşturup gönderebilen ve ağdaki
+cihazlar hakkında bilgi toplayabilen bir ağ tarayıcı geliştirme. Amaç: Düşük seviye ağ
+programlama ve ağ analizi.
+6. Algoritma: Tek Sayı Düğümü Bulma: Bir bağlı listede tekrar etmeyen tek bir sayıyı
+bulma. (Hash Table veya XOR). Amaç: C'de veri yapıları ve bit manipülasyonu.
+Seviye 4: Gömülü Sistemler ve İleri Uygulamalar
+1. LED Controller: Bir geliştirme kartının (örneğin Raspberry Pi) genel amaçlı giriş/çıkış
+(GPIO) pinlerini C dilinde programlayarak basit bir LED'i yakıp söndüren veya parlaklığını
+kontrol eden bir uygulama geliştirme. Donanım soyutlama (Hardware abstraction)
+prensiplerini ve gerçek zamanlı kısıtlamaları (Real-time constraints) anlama. Amaç:
+Gömülü sistem programlamaya giriş ve donanım etkileşimi.
+2. Algoritma: Graf BFS/DFS: Bir graf üzerinde Genişlik Öncelikli Arama (BFS) ve Derinlik
+Öncelikli Arama (DFS) algoritmalarını uygulama. (Graph, Queue/Stack). Amaç: C'de graf
+algoritmaları.
+3. Sensor Interface: I2C veya SPI gibi seri iletişim protokollerini kullanarak bir sensörden
+veri okuyabilen, elde edilen veriyi işleyebilen (Data acquisition) ve sinyal işleme (Signal
+processing) tekniklerini uygulayarak anlamlı bilgiler çıkarabilen bir C programı geliştirme.
+Amaç: Sensör entegrasyonu, seri iletişim ve temel sinyal işleme.
+4. Algoritma: Dikdörtgen Alanı: Verilen bir dizi dikdörtgenin çakışan alanını veya toplam
+alanını hesaplama. (Geometrik algoritmalar, sweep line kavramı). Amaç: C'de geometrik
+problemler.
+5. Real-time System: Gerçek Zamanlı İşletim Sistemleri (RTOS) kavramlarını anlayarak,
+görev zamanlaması (Task scheduling), kesme yönetimi (Interrupt handling) ve kritik
+zamanlamalı uygulamalar için gerekli olan prensipleri uygulayan küçük bir gömülü sistem
+uygulaması geliştirme. Amaç: RTOS prensipleri ve gerçek zamanlı uygulama geliştirme.
+6. Algoritma: Minimum Spanning Tree (MST): Bir grafın minimum yayılan ağacını bulma
+(örneğin Prim veya Kruskal algoritmaları). (Graph, Greedy algorithms). Amaç: C'de graf
+algoritmaları ve optimizasyon.
+Seviye 5: İleri Seviye ve Uzmanlaşma
+1. Memory Allocator: C'deki malloc ve free fonksiyonlarının kendi basit
+implementasyonlarını geliştirme. Bellek havuzları (Memory pools) kullanarak tahsisatı
+optimize etme ve bellek parçalanmasını (Fragmentation handling) yönetmeye yönelik
+stratejiler uygulama. Amaç: Bellek yönetimi sistemlerinin iç işleyişini ve optimizasyonlarını
+anlamak.
+○
+Derin Dalış: C'nin derleme süreci, low-level bellek yönetimi (cache, paging) ve
+işletim sistemi çekirdeği etkileşimleri derinlemesine incelenmeli.
+2. Algoritma: Kısa Yol Algoritmaları: Dijkstra veya Bellman-Ford gibi kısa yol
+algoritmalarını uygulama. (Graph, Dynamic Programming). Amaç: C'de en iyi yol bulma
+algoritmaları.
+3. Simple OS (Basit İşletim Sistemi Çekirdeği): Bir bilgisayarın önyükleyici (Bootloader)
+mekanizmasını kullanarak basit bir işletim sistemi çekirdeği (Kernel basics) oluşturma.
+Temel cihaz sürücülerini (Device drivers) yazarak donanımla etkileşim kurma. Amaç:
+İşletim sistemlerinin temel prensiplerini ve çekirdek geliştirme.
+4. Algoritma: Network Flow: Maksimum akış veya minimum kesit gibi ağ akış
+algoritmalarını uygulama. (Graph, Max Flow Min Cut Theorem). Amaç: C'de ağ
+optimizasyonu ve ileri graf teorisi.
+5. Compiler (Basit Dil İçin): Basit bir programlama dili için bir derleyici (Compiler)
+geliştirme. Sözcük analizi (Lexical analysis), ayrıştırma (Parsing) ve hedef makine kodu
+üretimi (Code generation) gibi derleyici aşamalarını adım adım uygulama. Amaç:
+Derleyici tasarımı ve programlama dillerinin iç işleyişi.
+6. ÇOK DİLLİ ENTEGRASYON PROJELERİ
+Bu bölümdeki projeler, farklı dillerde edinilen becerileri bir araya getirerek gerçek dünya
+senaryolarını simüle eder. Her proje, bir Takım İş Birliği ve DevOps Simülasyonu içerecektir:
+Sürüm kontrolünde (Git/GitHub) branching stratejileri (Feature Branch, Gitflow gibi), Pull
+Request (PR) oluşturma, code review yapma ve geri bildirimleri uygulama pratiği. Farklı dillerde
+yazılmış servislerin Docker ile konteynerize edilmesi ve Docker Compose ile yerel ortamda
+birlikte çalıştırılması. CI/CD (Continuous Integration/Continuous Deployment) boru hatlarının
+(GitHub Actions, GitLab CI gibi) basit bir örneğini kurarak kod birleştirme ve otomatik dağıtım
+pratikleri.
+Seviye 1: Basit Entegrasyonlar
+1. Çok Dilli Hesap Makinesi: Kullanıcıların web arayüzünden matematiksel işlemler
+yapabileceği bir sistem. Kullanıcı arayüzü JavaScript (veya React), hesaplama mantığı
+Python (Flask API) ile sağlanacak, sonuçlar SQLite veritabanında saklanacak ve geçmişi
+web'den görüntülenecek. Bu proje, farklı katmanlarda farklı dillerin nasıl entegre
+olabileceğini gösterir.
+2. Dosya İşlem Sistemi: Komut satırından dosya tarama ve temel işlemler için Go dili,
+taranan dosyaların daha derinlemesine analizi ve raporlaması için Python scripting, ve
+sonuçların web arayüzünde (JavaScript/React) gösterildiği bir sistem. Bu proje, farklı
+dillerin belirli görevlerdeki güçlü yanlarını birleştirme ve aralarında veri akışı sağlama
+becerisini geliştirir.
+Seviye 2: Orta Seviye Entegrasyonlar
+1. Mikroservis E-ticaret Sistemi: Bir e-ticaret platformunu kullanıcı yönetimi (Go), ürün
+kataloğu (Python), ödeme işlemleri (Node.js) gibi bağımsız mikroservislere bölerek
+geliştirme. React/TypeScript ile web arayüzü ve Flutter/Dart ile mobil uygulama
+sağlanacak. PostgreSQL ve Redis gibi veritabanları kullanılacak. Bu proje, karmaşık bir
+sistemi birden fazla dilde ve teknolojide tasarlama ve yönetme becerisini kazandırır.
+2. Real-time Chat Platform: Kullanıcıların farklı platformlardan (web ve mobil) gerçek
+zamanlı sohbet edebildiği bir platform. WebSocket sunucusu Go ile, API ağ geçidi Python
+(FastAPI) ile, web istemcisi React/TypeScript ile ve mobil uygulama Flutter ile
+geliştirilecek. Redis mesaj kuyruğu olarak, MongoDB veritabanı olarak kullanılacak.
+Dosya paylaşımı ve grup sohbetleri gibi ileri özellikler eklenecek. Bu proje, dağıtık
+sistemlerde gerçek zamanlı iletişimi ve farklı istemci platformlarını entegre etmeyi
+hedefler.
+Seviye 3: İleri Seviye Entegrasyonlar
+1. IoT Veri Toplama Sistemi: Gömülü bir kontrolcü (C) ile sensörlerden veri toplayan,
+toplanan veriyi Python ile analiz eden (ML analizi), Go ile yüksek performanslı bir API
+sunucusu üzerinden veriyi sunan ve React/TypeScript ile web dashboard'u, Flutter ile
+mobil uygulama üzerinden izlenebilen bir IoT sistemi. InfluxDB zaman serisi veritabanı ve
+Apache Kafka mesaj aracı olarak kullanılacak. Bu proje, donanım seviyesinden buluta
+kadar tam bir dikey entegrasyon deneyimi sunar.
+2. Sosyal Medya Platformu: İçerik işleme için Python, kullanıcı yönetimi için Go, bildirimler
+için Node.js kullanan çok dilli bir sosyal medya platformu. Web frontend React/TypeScript,
+mobil uygulama Flutter ile geliştirilecek. Elasticsearch ile gelişmiş arama, Redis ile
+önbellekleme ve PostgreSQL ana veritabanı olarak kullanılacak. Yapay zeka destekli
+içerik önerileri, gerçek zamanlı bildirimler ve medya işleme gibi karmaşık özellikler
+içerecek.
+Seviye 4: Enterprise Seviye Projeler
+1. Fintech Platformu: Yüksek performanslı bir işlem motoru (C), ML modelleriyle risk analizi
+(Python), güvenli bir API ağ geçidi (Go) ile finansal bir platform geliştirme. Web arayüzü
+React/TypeScript, mobil uygulama Flutter ile sağlanacak. Blockchain entegrasyonu (Go
+ile), PostgreSQL ve Redis veritabanları, Apache Kafka mesaj kuyruğu, Prometheus ve
+Grafana izleme araçları kullanılacak. Gerçek zamanlı ticaret, risk yönetimi ve uyumluluk
+raporlaması gibi kritik finansal özellikler içerecek.
+2. Healthcare Platformu: Tıbbi cihazlarla arayüz (C), AI/ML ile veri işleme (Python), güvenli
+API servisleri (Go) ile bir sağlık platformu geliştirme. Web arayüzü React/TypeScript,
+mobil uygulama Flutter ile sağlanacak. PostgreSQL ve MongoDB veritabanları, RabbitMQ
+mesaj kuyruğu, OAuth2 ve JWT ile güvenlik sağlanacak. HIPAA uyumluluğu, gerçek
+zamanlı izleme, AI tabanlı teşhis ve teletıp gibi hassas sağlık özellikleri içerecek.
+Seviye 5: DevOps ve Cloud Native
+1. Multi-Cloud Deployment Platform: Farklı bulut sağlayıcıları (AWS, GCP, Azure)
+üzerinde uygulamaların altyapısını kod olarak (Infrastructure as Code - Python/Terraform)
+otomatikleştiren, CI/CD süreçlerini Go ile otomatize eden, JavaScript ile izleme
+dashboard'u ve Flutter ile mobil yönetici uygulaması olan bir platform geliştirme.
+Kubernetes konteyner orkestrasyonu ve Istio servis ağı kullanılacak. Otomatik ölçekleme,
+felaket kurtarma ve güvenlik uyumluluğu gibi özellikler hedeflenecek.
+2. AI/ML Platformu: Makine öğrenimi modellerinin eğitildiği (Python/TensorFlow/PyTorch),
+bu modellerin çıkarım için sunulduğu (Go), React/TypeScript ile web arayüzü ve Flutter ile
+mobil uygulaması olan bir platform. Apache Kafka veri hattı olarak, MLflow model kayıt
+sistemi olarak, Prometheus izleme için ve PostgreSQL/Redis veritabanları kullanılacak.
+Model eğitim hattı, gerçek zamanlı çıkarım, A/B testi ve model versiyonlama gibi özellikler
+sunacak.
+Seviye 6: Kapsamlı Bir Yazılım Projesi Planlama ve Tasarımı (Planlama
+Projesi)
+Bu aşamada öğrenci, daha önceki tüm bilgilerini kullanarak kendi belirleyeceği veya verilen bir
+iş problemi için tam bir yazılım projesi planlama ve tasarımı yapacaktır. Bu, kod yazımından çok,
+"proje mimarı" bakış açısını geliştirmeye odaklanacaktır.
+1. İş Problemi/Fikir Tanımı: Çözülecek gerçek bir iş problemini veya geliştirilecek bir ürün
+fikrini detaylıca tanımlama.
+2. Gereksinim Analizi: Fonksiyonel ve fonksiyonel olmayan (performans, güvenlik,
+ölçeklenebilirlik, kullanılabilirlik vb.) tüm gereksinimleri toplama ve dokümante etme.
+3. Sistem Mimarisi Tasarımı: Seçilen iş problemine en uygun yazılım mimarisini
+(mikroservis, monolit, modüler monolit vb.) detaylıca tasarlama, katmanları, modülleri ve
+aralarındaki etkileşimleri belirleme.
+4. Teknoloji Yığını Seçimi: Her bir bileşen için kullanılacak programlama dilleri,
+framework'ler, veritabanları, bulut servisleri gibi teknoloji yığınını belirleme ve bu
+seçimlerin nedenlerini teknik ve işlevsel argümanlarla açıklama.
+5. Veritabanı ve API Tasarımı: Veritabanı şemalarını (ERD, tablo/koleksiyon tasarımları) ve
+API kontratlarını (RESTful endpoint'ler, istek/yanıt formatları) detaylıca tasarlama.
+6. Proje Yönetimi ve Zaman Çizelgesi Taslağı: Projenin tahmini zaman çizelgesini, ana
+kilometre taşlarını, potansiyel riskleri ve çözüm yollarını içeren basit bir proje yönetim
+planı taslağı oluşturma.
+7. Maliyet Analizi (Opsiyonel): Eğer bulut servisleri veya üçüncü parti API'ler
+kullanılacaksa, tahmini maliyet analizi yapma.
+7. YAZILIM TESTİ VE KALİTE GÜVENCESİ ÖĞRENME
+YOLU
+Bu bölüm,
+"Test kodları her proje için yazılacak" notunu desteklemek ve Mustafa'nın test
+otomasyonunda uzmanlaşmasını sağlamak için özel olarak tasarlanmıştır.
+1. Unit Test Uygulamaları: Farklı dillerde (Python: pytest, JavaScript: Jest, Go: testing
+paketi, Dart: test paketi, C: Unity veya basit manuel testler) popüler test framework'leri ile
+yazdığınız kod modüllerini (fonksiyonlar, sınıflar) bağımsız olarak test etme.
+2. Integration Test Uygulamaları: Farklı bileşenlerin (örneğin bir API servisi ile veritabanı)
+veya sistemlerin (örneğin iki mikroservis) birbiriyle etkileşimini test etme. Veritabanı
+testleri, API entegrasyon testleri.
+3. End-to-End (E2E) Test Uygulamaları: Web arayüzü testleri için Selenium, Playwright
+veya Cypress gibi araçlar kullanarak kullanıcı akışlarını baştan sona simüle etme ve
+otomatikleştirme. Mobil uygulamalar için Flutter Driver gibi araçlar kullanma.
+4. Test-Driven Development (TDD) Pratiği: Mevcut projelerden birine veya yeni, küçük bir
+özelliğe TDD yaklaşımıyla (önce test yaz, sonra kodu yaz, sonra refactor et) yeni özellik
+ekleme.
+5. Performans Testi (Load Testing): Apache JMeter, Locust (Python) veya k6 (JavaScript)
+gibi araçlar kullanarak uygulamaların yük altındaki davranışını (response time,
+throughput) test etme ve darboğazları belirleme.
+6. Güvenlik Testi (Basit): OWASP ZAP veya Burp Suite'in ücretsiz versiyonları gibi
+araçlarla temel güvenlik açığı taraması yapma ve yaygın güvenlik zafiyetlerini (örneğin
+SQL Injection, XSS) anlama.
+8. MÜLAKAT HAZIRLIĞI PROJELERİ
+Bu bölüm, Mustafa'nın teknik mülakatlarda başarılı olması için özel olarak tasarlanmıştır.
+1. Kodlama Mülakatı Simülasyonu: LeetCode, HackerRank gibi platformlardan zorluk
+seviyelerine göre seçilmiş ("Kolay"
+,
+"Orta"
+,
+"Zor") rastgele algoritmik problemleri belirli bir
+zaman kısıtı altında (örneğin 30-45 dakika) çözme pratiği. Çözümleri "Whiteboard coding"
+(açıklamalı, temiz ve anlaşılır kod) formatında sunma ve çözüm yaklaşımını yüksek sesle
+anlatma.
+2. Sistem Tasarımı Mülakat Pratiği: Yaygın sistem tasarım sorularını (örneğin "URL
+kısaltma servisi tasarlayın"
+,
+"Twitter'ın besleme sistemini tasarlayın") analiz etme,
+ölçeklenebilirlik, performans, tutarlılık gibi faktörleri göz önünde bulundurarak farklı mimari
+yaklaşımları tartışma ve çözümünüzü çizimlerle destekleme.
+3. Davranışsal Mülakat Sorularına Hazırlık: "Zor bir projede nasıl başa çıktınız?"
+,
+"Hata
+yaptığınız bir durumu anlatın" gibi davranışsal sorular için STAR metodunu (Situation,
+Task, Action, Result) kullanarak etkili ve yapılandırılmış cevaplar hazırlama.
+4. Veri Yapıları ve Algoritma Konularına Derin Dalış (Mülakat Odaklı): Her veri yapısı
+(Array, Linked List, Tree, Graph, Hash Table, Stack, Queue, Heap) ve temel algoritmaların
+(Sorting, Searching, BFS, DFS, Dynamic Programming, Greedy) zaman ve alan
+karmaşıklıklarını, kullanıldığı senaryoları ve farklı implementasyonlarını mülakat odaklı
+olarak pekiştirme.
+ÖĞRENME SIRASI VE STRATEJİ
+Aşama 1: Temel Dil Öğrenimi (Yaklaşık 5-6 Ay)
+●
+Python
+●
+JavaScript/TypeScript
+●
+Go
+●
+Dart/Flutter
+●
+C
+Aşama 2: Çok Dilli Entegrasyon (Yaklaşık 3-4 Ay)
+●
+Basit entegrasyonlar (Seviye 1)
+●
+Orta seviye entegrasyonlar (Seviye 2)
+●
+İleri seviye projeler (Seviye 3-4)
+●
+Enterprise seviye (Seviye 5)
+Aşama 3: Yazılım Testi ve Kalite Güvencesi (Dillerle Eş Zamanlı veya
+Ayrı Bir Modül Olarak)
+●
+Unit Test Uygulamaları
+●
+Integration Test Uygulamaları
+●
+End-to-End Test Uygulamaları
+●
+Test-Driven Development (TDD) Pratiği
+●
+Performans Testi
+●
+Güvenlik Testi
+Aşama 4: DevOps ve Cloud (Çok Dilli Entegrasyon ile Eş Zamanlı veya
+Sonrası)
+●
+Git/GitHub
+●
+Docker
+●
+Kubernetes
+●
+AWS/GCP/Azure
+●
+CI/CD pipelines
+●
+Monitoring ve logging
+Aşama 5: Mülakat Hazırlığı (Son Aşamada veya Süreç Boyunca
+Devamlı Pratik)
+●
+Kodlama Mülakatı Simülasyonu
+●
+Sistem Tasarımı Mülakat Pratiği
+●
+Davranışsal Mülakat Sorularına Hazırlık
+●
+Veri Yapıları ve Algoritma Konularına Derin Dalış
+Aşama 6: Gerçek Dünya Deneyimi (Tüm Süreç Boyunca Devam)
+●
+Open source projelere katkı (Erken başlayarak küçük katkılarla)
+●
+Freelance projeler (Uygun seviyeye gelince)
+●
+Portfolio geliştirme (Tamamlanan her projenin düzenli olarak GitHub'a eklenmesi)
+●
+Networking ve topluluk katılımı
+Aşama 7: Kapsamlı Bir Yazılım Projesi Planlama ve Tasarımı
+(Capstone Projesi)
+●
+Öğrenilen tüm bilgileri bir araya getirerek gerçek bir projeyi A'dan Z'ye tasarlama.
+NOTLAR
+●
+Her proje tamamlandıktan sonra GitHub'a push edilecek.
+●
+Tüm projeler Temiz Mimari prensiplerine uygun olacak.
+●
+Test kodları her proje için yazılacak (ve "Yazılım Testi ve Kalite Güvencesi" modülüyle
+desteklenecek).
+●
+Dokümantasyon her proje için hazırlanacak.
+●
+Performance ve security her zaman göz önünde bulundurulacak.
+BAŞARI METRİKLERİ
+●
+Her dilde en az 15 proje tamamlanacak.
+●
+Çok dilli entegrasyon projelerinin tamamı bitirilecek.
+●
+DevOps ve Cloud teknolojileri temel seviyede uygulanacak.
+●
+En az 3 açık kaynak projeye anlamlı katkıda bulunulacak.
+●
+En az 1 freelance proje tamamlanacak.
+●
+Algoritma ve veri yapılarında belirli bir platformda (örneğin LeetCode) zor seviye
+problemlerin %50'sini çözebilme hedefi.
+●
+Her projenin tamamlanması sonrası yapay zeka değerlendirmesi ve zaman analizi
+yapılacak.
+Bu revize edilmiş planın Mustafa'nın hedeflerine ulaşmasında daha da etkili olacağını
+umuyorum. Başka herhangi bir soru veya öneriniz olursa, lütfen bildirin.
